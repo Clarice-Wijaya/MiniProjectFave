@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactUs.css">
+    <link rel="stylesheet" href="/home/home.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/home/home.html">Home</a></li>
+                <li><a href="/contactUs/contactUs.html" class="contactlink">
+                    <button class="contactbtn" type="button">Contact Us</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="right">
+            <img class="pic" src="/asset/pic.png" alt="">
+        </div>
+        
+        <div class="left">
+            <h1>Contact Us</h1>
+            <div class="box">
+                <form id="form" action="">
+                    <div class="isi">
+                        <div class="inputbox">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                            <!-- <label>Name</label> -->
+                            <div class="error"></div>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="email" id="email" placeholder="Email">
+                            <!-- <label>Email</label> -->
+                            <div class="error"></div>
+                        </div>
+                        <div class="inputbox">
+                            <textarea name="message" name="message" id="message" placeholder="Message"></textarea>
+                            <!-- <label>Message</label> -->
+                            <div class="error"></div>
+                        </div>  
+                        <div class="button">
+                            <button type="submit" class="btn" >Contact Us</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="contactbox">
+                    <h2 id="contact">Contact</h2>
+                    <span id="fave">@FAVEshion.id</span>
+                    <h2 id="based">Based in</h2>
+                    <span id="jkt">Jakarta,</span>
+                    <span id="indo">Indonesia</span>
+
+                    <div class="medsos">
+                        <a href="https://twitter.com/faveshion" target="_blank" rel="noopener" rel="noreferrer"><img src="/asset/twitter.png"></a>
+                        <a href="https://facebook.com/faveshion" target="_blank" rel="noopener" rel="noreferrer"><img src="/asset/facebook.png" ></a>
+                        <a href="https://instagram.com/faveshion" target="_blank" rel="noopener" rel="noreferrer"><img src="/asset/insta.png" ></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="contactUs.js"></script>
+</body>
+</html>

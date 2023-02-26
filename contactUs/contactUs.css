@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Metropolis';
+    background: #FAF6F3;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.pic{
+    position: absolute;
+    width: 547px;
+    height: 658px;
+    left: 76px;
+    top: 147px;
+}
+
+h1{
+    position: absolute;
+    width: 615px;
+    height: 110px;
+    left: 703px;
+    top: 147px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 110px;
+    color: #453D3D;
+}
+
+.box{
+    position: absolute;
+    box-sizing: border-box;
+    width: 60%;
+    height: 551px;
+    left: 703px;
+    top: 322px;
+    background: #FAF6F3;
+    border: 3px solid #000000;
+}
+
+/* .container{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+} */
+
+.box .inputbox{
+    position: relative;
+    width: 40%;
+    margin-top: 40px;
+    left: 8%;
+    top: 10%;
+}
+
+.box .inputbox input,
+.box .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 3px solid #333;
+    background-color: #FAF6F3;
+    outline: none;
+    resize: none;
+}
+
+
+/* .box .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 24px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color:#453D3D;
+}
+
+.box .inputbox input:focus ~ label,
+.box .inputbox textarea:focus ~ label{
+    color: rgb(200, 72, 72);
+    font-size: 18px;
+    transform: translateY(-20px);
+}
+ */
+
+
+.box .btn{
+    position: absolute;
+    width: 40%;
+    height: 58px;
+    bottom: 15%;
+    left: 8%;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    background: #453D3D;
+    border-radius: 32px;
+}
+
+.contactbox{
+    position: relative;
+    width: 40%;
+    left: 60%;
+    top: -48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactbox h2{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 32px;
+}
+.contactbox span{
+    font-size: 24px;
+}
+
+#fave{
+    margin-bottom: 60px;
+}
+#jkt{
+    margin-bottom: 10px;}
+
+.contactbox .medsos{
+    margin-top: 130px;
+}
+
+.medsos img{
+    margin-right:40px ;
+    width: 29px;
+    height: 29px;
+}
+
+.inputbox .error input{
+    border-color: red;
+
+}
+
+.inputbox .error{
+    color: red;
+}
